@@ -1,7 +1,8 @@
 #include<limits.h>
 #include<stdbool.h>
 #include<stdio.h>
-#define V 5 //No Of Vertices(Nodes)
+#define V 5 /*No Of Vertices(Nodes)*/
+void Prims_Algorithm(int[]);
 
 int main()
 {
@@ -13,4 +14,7 @@ int main()
         {}
     }
     Prims_Algorithm(Graph);
+}
+void Prims_Algorithm(){
+
 }
