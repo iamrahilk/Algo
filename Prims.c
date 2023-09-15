@@ -3,13 +3,14 @@
 #include<stdio.h>
 #define V 5 //No Of Vertices(Nodes)
 
-main()
+int main()
 {
-    int i,j,graph[V][V]={
+    int i,j,Graph[V][V]={
         {},
         {},
         {},
         {},
         {}
     }
+    Prims_Algorithm(Graph);
 }
