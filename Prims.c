@@ -2,9 +2,8 @@
 #include<stdbool.h>
 #include<stdio.h>
 #define V 5 /*No Of Vertices(Nodes)*/
+void Prims_Algorithm(int[]);
 
-void Prims_Algorithm(){
-}
 int main()
 {
     int i,j,Graph[V][V]={
@@ -14,7 +13,8 @@ int main()
         {7,3,6,0,9},
         {4,2,6,1,0}
     }
-    printf("hello world");
     Prims_Algorithm(Graph);
+}
+void Prims_Algorithm(){
 
 }
